@@ -86,3 +86,45 @@ we could've done
 print(w1),
 print(w2)
 """
+
+#Back to printing
+#You can also use format function on multiple arguments.
+#Ex:
+
+toFormat5 = "How old am I? How old will you be in 1 year? {} , {}"
+answer5 = 22
+answer6 = 23
+
+print(toFormat5.format(answer5,answer6))
+
+#To print paragraphs, use triple double-quotes, like the multiline comments
+print("""
+This
+is
+a
+paragraph.""")
+
+#As in Java, we can store new lines with \n
+print("This\nis\nalso\na\nparagraph.")
+
+#Instead of concatenating with +, we can concatenate with ,
+#Comma is usually faster, and is more used.
+#The plus sign is more used when concatenating with the help of for loops
+#But, even then, join() is mostly used.
+days = "Mon Tue Wed Thu Fri Sat Sun"
+print("days", days)
+
+#same as triple double quotes, can be used vice versa.
+#might prefer one over the other if the string itself contains the other triple
+print('''use
+single
+"""
+here.
+''')
+
+#taking user input is easy, with input()
+print("How old are you?", end = ' ')
+age = input()
+print(f"I see, so you are {age} years old")
+age = input('Enter your age ')
+print(f"You are {age} years old.")
