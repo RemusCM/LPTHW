@@ -15,4 +15,7 @@ def mult(numb1, numb2):
 """To call functions in powershell, import ex25 (no need to add
 .py extension)
 Then, whenever you want to call a function, all we need to do is
-ex25.functionName(args)"""
+ex25.functionName(args)
+Otherwise, can write from ex25 import * to not have to write ex25 everytime
+Other functions taught are split, sorted, and pop
+"""
