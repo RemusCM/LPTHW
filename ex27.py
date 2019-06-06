@@ -27,3 +27,4 @@ print(20>17)
 print(17==7)
 
 #Not spending much time on this, as I know it already from other languages.
+#Skipping ex28, as just more practice on boolean operations.
