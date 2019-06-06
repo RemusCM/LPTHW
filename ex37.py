@@ -102,3 +102,9 @@ myGen = createGenerator()
 print(myGen)
 for i in myGen:
     print(i)
+
+
+#dicts -> mappings between keys and values.
+dict = {'a':1, 'b':2}
+print(dict)
+print(dict.get('a'))
