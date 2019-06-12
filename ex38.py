@@ -22,3 +22,7 @@ list = [1,2,3]
 
 #join only works on string
 print ("-".join(str(x) for x in list))
+
+for i in range(2):
+    list.pop()
+    print(list)
